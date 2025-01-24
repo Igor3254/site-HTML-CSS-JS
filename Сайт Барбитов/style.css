@@ -1,19 +1,16 @@
 body{
     background: rgba(170, 65, 5, 0.507);
 }
-div{
-    background: black;
-    color: aliceblue;
-    border: 4px blue solid;
-}
+
 div ul li img {
     width: 250px;
     height: 250px;
     alt: 'photo image poster';
 }
 /* Оформление навигации */
-header{
-    background: #06c
+header, footer{
+    background: #06c;
+    
 }
 
 #menu1{
@@ -83,4 +80,40 @@ header{
     box-sizing: border-box;
     border-top: 1px solid #fff;
     color: antiquewhite;
+}
+
+/**/
+.post{
+    background: gray;
+    border: 2px solid black;
+    border-radius: 3px;
+    display: flex;
+    box-shadow: -2px 15px 8px 2px rgba(34, 60, 80, 0.2);
+}
+
+.post p a{
+    text-decoration: none;
+    font-size: 24px;
+    color: wheat  ;
+}
+
+.footer-menu a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer-menu li a{
+    text-decoration: none;
+}
+.footer-columns{
+    display: flex;
+    text-align: center;
+    color: #fff;
+}
+.footer-column{
+    flex: 33%;
+    color: #fff;
+}
+.footer-column p a{
+    text-decoration: none;
+    color: #fff;
 }
